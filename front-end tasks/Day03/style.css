@@ -1,0 +1,42 @@
+/* 1
+nastepny div ma czcionke arial
+div + div {
+    font-family: arial;
+}
+*/
+
+/* 2
+trzecie p jest zolte
+p + p + p {
+    color: yellow;
+}
+*/
+
+/* 3
+wszystkie dzieci p sa zolte
+p ~ p {
+    color: yellow;
+}
+*/
+
+/* 4
+wez p ktore jest potomkiem drugiego diva
+div div p {
+    color: yellow;
+}
+*/
+
+/* 5
+weź p które jest bezpośrednim dzieckiem diva
+div>p {
+    color: yellow;
+}
+*/
+
+/* 6
+matko bosko, częstochowsko....
+weź p co jest potomkiem dowolnego elementu, w którym dowolny element jest potomkiem diva
+div * p {
+    color: yellow;
+}
+*/
