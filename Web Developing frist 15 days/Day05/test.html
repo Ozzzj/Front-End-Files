@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tekst na obrazku</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <style type="text/css">
+        * {
+            color: white;
+            margin: 0;
+            font-family: 'Open Sans Condensed', sans-serif;
+
+        }
+
+        div.content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+                /* przesunięcie w poziomie i pionie*/
+        }
+
+        div.bgc {
+            width: 820px;
+            height: 312px;
+            background-image: url('bgc.png');
+        }
+
+        h1.text {
+            position: absolute;
+            top: 42%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* przesunięcie w poziomie i pionie*/
+        }
+
+        h3.text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: 10px;
+            transform: translate(-50%, -50%);
+            /* przesunięcie w poziomie i pionie*/
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="bgc">
+            <h1 class="text">Witaj świecie!</h1>
+            <h3 class="text">Inspiruj się i podążaj do przodu każdego dnia.</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>
