@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+body {
+    min-height: 200vh;
+}
+
+div.menu-ico {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    font-size: 40px;
+    color: grey;
+}
+
+
+div.menu-ico:hover {
+    color: black;
+    cursor: pointer;
+}
+*/
+
+
+div.board {
+    border: 4px solid black;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    top: 50px;
+    left: 50px;
+}
+
+div span {
+    position: absolute;
+    /*    jak dalem absolute to automatycznie span stal sie blokowy*/
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+div span:nth-last-of-type(1) {
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+/*
+zle, bez float
+div.profile {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    background-color: gainsboro;
+}
+
+div.answer {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+.avatar {
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+
+h1.name {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p.sentence {
+    letter-spacing: 0.5px;
+}
+*/
+
+
+div.profile {
+    width: 800px;
+    margin: 50px auto;
+    position: relative;
+    background-color: gainsboro;
+}
+
+div.answer {
+    position: absolute;
+    margin: 0 30px;
+    top: 20px;
+    left: 200px;
+}
+
+.avatar {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+h1.name {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p.sentence {
+    letter-spacing: 0.5px;
+}
+
++
